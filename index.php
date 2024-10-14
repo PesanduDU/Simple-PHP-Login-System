@@ -27,6 +27,16 @@
         <p class="sign-up-label">
             Already have an account?&nbsp;<span class="sign-up-link">Sign in</span>
         </p>
+
+        <br>
+
+        <p class="sign-up-label">
+            Do you want to update the user?&nbsp;<a href="update.php"><span class="sign-up-link">Update User</span></a>
+        </p>
+
+        <p class="sign-up-label">
+            Do you want to delete the user?&nbsp;<a href="delete.php"><span class="sign-up-link">Delete User</span></a>
+        </p>
     </div>
 
     <!-- /form -->
