@@ -30,8 +30,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                 $stmt = $pdo->prepare($query);
 
+                //Use password hashing --> very important
+                $hshuserpwd = password_hash($userpwd, PASSWORD_DEFAULT);
+
                 $stmt->bindParam(":uname", $username);
-                $stmt->bindParam(":upwd", $userpwd);
+                $stmt->bindParam(":upwd", $hshuserpwd);
                 $stmt->bindParam(":uemail", $useremail);
 
                 $stmt->execute();
