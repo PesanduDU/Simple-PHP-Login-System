@@ -18,10 +18,8 @@
         <form class="form" action="includes/delete.inc.php" method="post">
             <input type="text" name="username" class="input" placeholder="Name">
             <input type="password" name="pwd" class="input" placeholder="Password">
-            <button class="form-btn" name="submit">Sign up</button>
+            <button class="form-btn-del" name="submit">Delete User</button>
         </form>
-
-        <!-- <p class="delete-msg">User Delete Successfully!</p> -->
 
         <?php
 

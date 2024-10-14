@@ -27,9 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                 header("Location: ../delete.php?userdlt=success");
                 die();
-
             }
-
         } catch (PDOException $e) {
             die("Query Failed " . $e->getMessage());
             header("Location: ../delete.php?userdl=unsuccess");

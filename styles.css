@@ -122,7 +122,7 @@
 }
 
 
-/* for update page */
+/* for update page and delete page */
 
 .update-title {
   text-align: center;
@@ -133,8 +133,6 @@
   font-weight: 800;
 }
 
-/* for delete page */
-
 .delete-title {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -144,7 +142,8 @@
   font-weight: 800;
 }
 
-.delete-msg{
+.delete-msg,
+.update-msg{
   text-align: center;
   margin-top: 50px;
   font-size: 20px;
@@ -153,11 +152,38 @@
   font-weight: 800;
 }
 
-.delete-msg-un{
+.delete-msg-un,
+.update-msg-un{
   text-align: center;
   margin-top: 50px;
   font-size: 20px;
   color:rgb(215, 49, 49);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 800;
+}
+
+.form-btn-del {
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: rgb(212, 57, 57);
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-btn-up {
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: rgb(73, 153, 203);
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
